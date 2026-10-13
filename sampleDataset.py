@@ -1,9 +1,9 @@
 import pandas as pd
 import os 
 DATASET_TO_SAMPLE_PATH = "DATASET/train.tsv"
-DATASET_TO_WRITE_PATH = "SampledDataset/lSampledDataset.tsv"
+DATASET_TO_WRITE_PATH = "SampledDataset/SampledDataset.tsv"
 
-CLEANED_DATASET_PATH = "SampledDataset/lCleanedTrainDataset.tsv"
+CLEANED_DATASET_PATH = "SampledDataset/CleanedTrainDataset.tsv"
 
 def clean_dataset(input_path, output_path):
     if not os.path.exists(input_path):
